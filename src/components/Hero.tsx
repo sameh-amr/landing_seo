@@ -31,7 +31,6 @@ const Hero: React.FC = () => {
         this.fontSize = Math.random() * 12 + 8;
         this.opacity = Math.random() * 0.5 + 0.1;
       }
-
       update() {
         this.y += this.speed;
         if (this.y > canvas.height) {
@@ -48,7 +47,7 @@ const Hero: React.FC = () => {
     }
 
     const init = () => {
-      canvas.width = window.innerWidth;
+      
       canvas.height = window.innerHeight;
       binaryStrings.length = 0;
       
