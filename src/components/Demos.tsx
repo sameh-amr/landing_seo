@@ -48,14 +48,6 @@ const Demos: React.FC = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/50 to-transparent" />
               
               <div className="absolute bottom-0 left-0 right-0 p-6 text-white transform transition-transform duration-300 ease-in-out">
-                <div className="flex items-center space-x-2 mb-2">
-                  <span className="bg-primary-500 rounded-full p-1">
-                    <DemoIcon type={demo.icon} />
-                  </span>
-                  <span className="text-sm font-medium uppercase tracking-wider">
-                    {demo.title}
-                  </span>
-                </div>
                 
                 <h3 className="text-xl font-bold mb-2">
                   {demo.title}
