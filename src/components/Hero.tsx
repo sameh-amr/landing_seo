@@ -47,7 +47,7 @@ const Hero: React.FC = () => {
     }
 
     const init = () => {
-      
+      canvas.width = window.innerWidth;
       canvas.height = window.innerHeight;
       binaryStrings.length = 0;
       
