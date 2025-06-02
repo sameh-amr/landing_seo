@@ -67,17 +67,7 @@ const Services: React.FC = () => {
                     {service.description}
                   </p>
                   
-                  <div className="mt-6 flex items-center text-primary-500 font-medium">
-                    <span className="mr-2">Learn More</span>
-                    <svg 
-                      className="w-4 h-4 transform group-hover:translate-x-2 transition-transform" 
-                      fill="none" 
-                      stroke="currentColor" 
-                      viewBox="0 0 24 24"
-                    >
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                    </svg>
-                  </div>
+
                 </div>
               </div>
             </div>
